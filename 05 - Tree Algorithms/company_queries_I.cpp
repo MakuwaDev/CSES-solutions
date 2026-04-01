@@ -41,15 +41,6 @@ int main() {
         }
     }
 
-    // for (std::size_t i = 0; i < n; ++i) {
-    //     std::cout << i << ": ";
-    //     for (auto x : ancestor[i]) {
-    //         std::cout << x << " ";
-    //     }
-
-    //     std::cout << "\n";
-    // }
-
     while (q--) {
         std::cin >> x >> y;
         --x; --y;
